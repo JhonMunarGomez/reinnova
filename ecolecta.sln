@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ecolecta", "ecolecta\ecolecta.csproj", "{CE47C321-8381-4146-9D1B-90134BFB2C8B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicaNegocio", "LogicaNegocio\LogicaNegocio.csproj", "{B6C81862-186D-40A3-92D8-BBF7AD6EBC4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccesoDatos", "AccesoDatos\AccesoDatos.csproj", "{333CBD62-AFB3-4210-965A-7FB91CD6ED82}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{CE47C321-8381-4146-9D1B-90134BFB2C8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE47C321-8381-4146-9D1B-90134BFB2C8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE47C321-8381-4146-9D1B-90134BFB2C8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6C81862-186D-40A3-92D8-BBF7AD6EBC4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6C81862-186D-40A3-92D8-BBF7AD6EBC4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6C81862-186D-40A3-92D8-BBF7AD6EBC4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6C81862-186D-40A3-92D8-BBF7AD6EBC4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{333CBD62-AFB3-4210-965A-7FB91CD6ED82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{333CBD62-AFB3-4210-965A-7FB91CD6ED82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{333CBD62-AFB3-4210-965A-7FB91CD6ED82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{333CBD62-AFB3-4210-965A-7FB91CD6ED82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
