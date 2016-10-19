@@ -109,7 +109,7 @@ namespace AccesoDatos
         }
 
         //Execute Transaction
-        public static bool Execute_Transaction(string[] cadena)
+        public static bool Execute_Transaction(List<String> cadena)
         {
             MySqlConnection con = Open_Connection();
             MySqlTransaction transa = con.BeginTransaction();
@@ -117,15 +117,11 @@ namespace AccesoDatos
 
             try
             {
-                for (int i = 0; i < cadena.Length; i++)
+                foreach(String i in cadena)
                 {
-                    if (cadena[i].Length > 0)
-                    {
-                        cmd = new MySqlCommand(cadena[i], con);
+                        cmd = new MySqlCommand(i, con);
                         cmd.Transaction = transa;
-                        cmd.ExecuteNonQuery();
-                    }
-
+                        cmd.ExecuteNonQuery();   
                 }
                 transa.Commit();
                 return true;
