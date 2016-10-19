@@ -1,0 +1,124 @@
+﻿.titulo
+{
+  position: absolute;
+  width: 491px;
+  height: 30px;
+  top: 48px;
+  left: 10px;
+    margin-top: 0px;
+    right: 541px;
+}
+
+.login-form{
+  width:350px;
+  padding:40px 30px;
+  background:rgba(235,235,205,0.7);
+  border-radius:4px;
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+  margin:50px auto;
+}
+
+body {}
+
+.logo-text
+{
+  font-family: Tahoma, Arial, Helvetica,Sans-Serif;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  color: #768122 !important;
+}
+
+.sheet-tr
+{
+    position: absolute;
+    width: 99px;
+  height: 98px;
+  background-image: url('/images/Logo.png');
+  z-index:100px;
+    top: 20px;
+    left: 400px;
+}
+
+.logo-name
+{
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  color: #BC551A !important;
+    width: 200px;
+}
+
+.nuevo-form{
+  width:400px;
+  padding:20px 80px;
+  background:rgba(235,235,205,0.7);
+  border-radius:4px;
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+  margin:50px auto;
+}
+
+.form-group{
+  position: relative;
+  margin-bottom:15px;
+}
+
+.table
+{
+  position: absolute;
+  width: 489px;
+  height: 343px;
+  top: 195px;
+  left: 0px;
+    margin-top: 0px;
+} 
+
+.muñequito1
+{
+  position: absolute;
+  width: 160px;
+  height: 146px;
+  top: 40px;
+  left: 159px;
+   margin-top  : 0px;
+   background  :url("/images/U.png")
+}
+
+.muñequito2
+{
+  position: absolute;
+  width: 113px;
+  height: 125px;
+  top: 50px;
+  left: 159px;
+   margin-top  : 0px;
+   background  :url("/images/Señor.png");
+    right: 770px;
+}
+
+
+.form-control{
+  width:100%;
+  height:15px;
+  border:none;
+  padding:5px 7px 5px 15px;
+  background:#fff;
+  color:#666;
+  border:2px solid #E0D68F;
+  border-radius:4px;
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+}
+
+div.logo
+{
+  display: block;
+  position: absolute;
+  left: 10px;
+  top: 47px;
+  width: 856px;
+}
+
+
