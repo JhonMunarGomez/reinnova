@@ -121,6 +121,24 @@ namespace ecolecta {
         protected global::System.Web.UI.WebControls.TextBox Telefono;
         
         /// <summary>
+        /// Control Label5.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label5;
+        
+        /// <summary>
+        /// Control Semestre.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox Semestre;
+        
+        /// <summary>
         /// Control Label7.
         /// </summary>
         /// <remarks>
@@ -130,13 +148,13 @@ namespace ecolecta {
         protected global::System.Web.UI.WebControls.Label Label7;
         
         /// <summary>
-        /// Control Institucion.
+        /// Control Programa.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList Institucion;
+        protected global::System.Web.UI.WebControls.DropDownList Programa;
         
         /// <summary>
         /// Control Registrar.
@@ -146,5 +164,14 @@ namespace ecolecta {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Registrar;
+        
+        /// <summary>
+        /// Control Siguiente.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Siguiente;
     }
 }

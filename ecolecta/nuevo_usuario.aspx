@@ -12,7 +12,7 @@
      
             
     <div 
-        class="muñequito2" >
+        class="muñequito1" >
        </div>
       
     <div class="logo-name">
@@ -43,17 +43,23 @@
             <%--<input type="text" class="form-control" placeholder="Usuario " id="UserName" onclick="return UserName_onclick()" />--%>
             <asp:TextBox ID="Telefono" runat="server" class="form-control" placeholder="Telefono"></asp:TextBox>
                <i class="fa fa-user"></i>
+            <asp:Label ID="Label5" runat="server" Text="Semestre " Font-Bold="True"></asp:Label>
+              </i>
+            <%--<input type="text" class="form-control" placeholder="Usuario " id="UserName" onclick="return UserName_onclick()" />--%>
+            <asp:TextBox ID="Semestre" runat="server" class="form-control" placeholder="Semestre"></asp:TextBox>
+               <i class="fa fa-user"></i>
             <asp:Label ID="Label7" runat="server" Text="Institución" Font-Bold="True"></asp:Label>
               </i>
-            <asp:DropDownList ID="Institucion" runat="server" class="form-control" placenholder="Institución"></asp:DropDownList>
+            <asp:DropDownList ID="Programa" runat="server" class="form-control" placenholder="Programa"></asp:DropDownList>
              <center>
                 <asp:Button ID="Registrar" runat="server" Text="Registrar"
                Height="38px" Width="80px" onclick="Button_Click" Font-Bold="True" />
                </center>
-            
+             <asp:Button ID="Siguiente" runat="server" Text="Siguiente" style="float:right"
+               Height="38px" Width="80px" onclick="Button_Click" Font-Bold="True" />
             
         </div>
-          REGISTRO DE DONANTE</div>
+          REGISTRO DE USUARIO</div>
    
   </form>
 </body>
