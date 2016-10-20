@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="ecolecta.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Reinnova</title>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <link href="css/icomoon.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header>
+            <nav class="navbar navbar-default navbar-custom">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button class="navbar-toggle" data-toogle="collapse" data-target="#principal">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a href="#" class="navbar-brand "><img src="img/logo_semillero.png" /></a>
+                    </div>
+                    <div class="nav navbar-nav navbar-right navbar-link" id="principal">
+                        <li><a href="Index.aspx">Inicio</a></li>
+                        <li><a href="Login.aspx">Ingresar</a></li>
+                        <li><a href="#">Registrarse</a></li>
+                    </div>
+                </div>
+            </nav>            
+        </header>
+        <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        </div>
+        <footer class="section-footer">
+            <div class="app-empresa">
+                <h4>R3innova</h4>
+                <p class="text-semillero">Semillero de Investigación.</p>
+            </div>
+            <span class="icon-facebook sociales-icon"></span>
+            <span class="icon-twitter sociales-icon"></span>
+            <span class="icon-google-plus sociales-icon"></span>
+        </footer>
+    </form>
+    <script src="scripts/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script src="scripts/bootstrap.min.js" type="text/javascript"></script>
+</body>
+</html>

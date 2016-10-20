@@ -1,38 +1,46 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="ecolecta.Login" %>
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head id="Head1" runat="server">
-<link rel="stylesheet" type="text/css" href="/Css/Login.css"/>
-    <title>LOGIN</title>
-    </head>
-<body>
-<form id="form1" runat="server">
-   <div class="login-form">
-     <h1 style="color: #800000">Iniciar Sesión</h1>
-     <div class="form-group">
-         <asp:Label ID="Label2" runat="server" Text="Usuario" Font-Bold="True"></asp:Label>
-              </i>
-       <%--<input type="text" class="form-control" placeholder="Usuario " id="UserName" onclick="return UserName_onclick()" />--%>
-       <asp:TextBox ID="Usuario" runat="server" class="form-control" placeholder="Usuario"></asp:TextBox>
-       <i class="fa fa-user"></i>
-     </div>
-     <div class="form-group log-status">
-         <asp:Label ID="Label1" runat="server" Text="Contraseña" Font-Bold="True"></asp:Label>
-              </i>
-       <%--<input type="password" class="form-control" placeholder="Contraseña" id="Passwod"/>--%>
-       <asp:TextBox ID="Contra" runat="server" placeholder="Contraseña"  class="form-control" TextMode="Password"  ></asp:TextBox>
-       <i class="fa fa-lock"></i>
-     </div>
-      <span class="alert">Datos Incorrectos</span>
-       <center>
-           <asp:Button ID="Validar" runat="server" Text="Validar"  class="log-btn" 
-           Height="38px" Width="80px" onclick="Button_Click" Font-Bold="True" />
-       </center>
-      
-     <%--<button type="button" class="log-btn" >Ingresar</button>--%>
-    </div>
-    </form>
-   </body>
-</html>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="ecolecta.Login" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <title>Iniciar Sesion</title>
+    <link href="css/Login.css" rel="stylesheet" type="text/css" />
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <section class="container">
+        <div class="container-form">
+            <div class="login-form">
+                <div class="panel panel-default">
+                    <div class="panel-heading">INICIO SESION</div>
+                    <div class="panel-body">
+                            <div class="form-group">
+                                <asp:Label ID="nombreUsuario" runat="server" Text="Nombre Usuario" CssClass="hidden-xs col-lg-4 control-label label-form"></asp:Label>
+                                <div class="col-sm-12 col-lg-6 form-esp">                                
+                                    <asp:TextBox ID="T_nombreUsuario" runat="server" CssClass="form-control form-input"></asp:TextBox>
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <asp:Label ID="passUsuario" runat="server" Text="Contraseña" CssClass="hidden-xs col-lg-4 control-label label-form"></asp:Label>
+                                <div class="col-sm-12 col-lg-6 form-esp">
+                                    <asp:TextBox ID="T_passUsuario" runat="server" CssClass="form-control form-input" TextMode="Password"></asp:TextBox>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-lg-12 ">
+                                    <div class="col-lg-offset-4 col-lg-4 ">
+                                        <asp:Button ID="btnIngresar" runat="server" Text="Ingresar" CssClass="btn btn-lg btn-info btn-block" />
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                           
+                    </div>
+                <div class="panel-footer">
+                     <div class=" col-lg-offset-4col.lg-8 form-link">
+                         <asp:Label ID="iconoUser" runat="server" CssClass="glyphicon glyphicon-user text-info" ></asp:Label>
+                         <asp:HyperLink ID="Ref_registro" runat="server" CssClass="text-info" NavigateUrl="~/View/Register.aspx">Crear nueva Cuenta</asp:HyperLink>
+                         
+                     </div>                  
+                </div>
+                </div>
+            </div>  
+        </div>             
+    </section>      
+</asp:Content>

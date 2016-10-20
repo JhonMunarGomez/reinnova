@@ -1,0 +1,52 @@
+﻿body {
+}
+
+.img-imagen{
+    width: 100%;
+}
+
+img{
+    width: 75px;
+}
+
+.navbar-custom{
+    background: #AED581;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+    padding-bottom: 20px;
+}
+
+.section-footer{
+	text-align: center;
+	background: #f7f8fa;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	padding: 40px 0;
+}
+
+.sociales-icon{
+	background-color: #919191;
+	color: white;
+	padding: 10px;
+	border-radius: 4px;
+	margin-left: 10px;
+}
+
+.text-semillero {
+    margin-bottom: 20px;
+}
+
+.navbar-custom .navbar-link{
+    margin-top: 25px;
+}
+
+.navbar-custom .navbar-nav>li>a{
+    color: #fff;
+    font-size: 20px;
+}
+
+.img-user{
+      display:inline-block;
+      width: 40px;
+  }

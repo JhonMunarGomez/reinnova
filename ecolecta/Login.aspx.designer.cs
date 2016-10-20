@@ -13,66 +13,66 @@ namespace ecolecta {
     public partial class Login {
         
         /// <summary>
-        /// Control Head1.
+        /// Control nombreUsuario.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlHead Head1;
+        protected global::System.Web.UI.WebControls.Label nombreUsuario;
         
         /// <summary>
-        /// Control form1.
+        /// Control T_nombreUsuario.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.WebControls.TextBox T_nombreUsuario;
         
         /// <summary>
-        /// Control Label2.
+        /// Control passUsuario.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label2;
+        protected global::System.Web.UI.WebControls.Label passUsuario;
         
         /// <summary>
-        /// Control Usuario.
+        /// Control T_passUsuario.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Usuario;
+        protected global::System.Web.UI.WebControls.TextBox T_passUsuario;
         
         /// <summary>
-        /// Control Label1.
+        /// Control btnIngresar.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
+        protected global::System.Web.UI.WebControls.Button btnIngresar;
         
         /// <summary>
-        /// Control Contra.
+        /// Control iconoUser.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Contra;
+        protected global::System.Web.UI.WebControls.Label iconoUser;
         
         /// <summary>
-        /// Control Validar.
+        /// Control Ref_registro.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Validar;
+        protected global::System.Web.UI.WebControls.HyperLink Ref_registro;
     }
 }
